@@ -3,9 +3,9 @@ import FooterIcons from "./FooterIcons";
 const Footer = () => {
   return (
     <div className="mt-[4rem] flex flex-col justify-between gap-y-[1.5rem]">
-      <div className="flex justify-between sm:flex-wrap sm:justify-center sm:gap-y-4  md:gap-x-6">
+      <div className="flex justify-between sm:flex-wrap  sm:gap-y-4  md:gap-x-6 sm:gap-x-2">
         <div>
-          <h4 className="font-[500] text-[1.75rem] leading-[2.5rem] md:text-[1.4rem]">
+          <h4 className="font-[600] text-[1.75rem] leading-[2.5rem] md:text-[1.4rem]">
             Product
           </h4>
           <ul className="text-[1.1rem] font-[400] leading-[1.3rem] mt-[1rem] flex flex-col gap-y-[0.5rem]">
@@ -16,7 +16,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h4 className="font-[500] text-[1.75rem] leading-[2.5rem] md:text-[1.4rem]">
+          <h4 className="font-[600] text-[1.75rem] leading-[2.5rem] md:text-[1.4rem]">
             Resources
           </h4>
           <ul className="text-[1.1rem] font-[400] leading-[1.3rem] mt-[1rem] flex flex-col gap-y-[0.5rem]">
@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h4 className="font-[500] text-[1.75rem] leading-[2.5rem] md:text-[1.4rem]">
+          <h4 className="font-[600] text-[1.75rem] leading-[2.5rem] md:text-[1.4rem]">
             Company
           </h4>
           <ul className="text-[1.1rem] font-[400] leading-[1.3rem] mt-[1rem] flex flex-col gap-y-[0.5rem]">

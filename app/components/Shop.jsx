@@ -29,8 +29,8 @@ const Shop = () => {
             placeholder="blur"
             className="h-[60%] md:h-[55%] rounded-md"
           />
-          <div className=" p-[1rem] sm:py-[0.2rem] sm:px-[0.3rem]">
-            <h3 className="font-[500] md:font-[600]  text-[1.5rem] leading-[1.9rem] lg:text-[1.2rem] md:text-[1rem] sm:text-[0.8rem]">
+          <div className=" p-[1rem] ">
+            <h3 className="font-[500] md:font-[600]  text-[1.5rem] leading-[1.9rem] lg:text-[1.2rem] md:text-[1rem] ">
               Holly Herndon & Jlin (feat.
               <br className="md:hidden" /> Spawn)–Godmother
             </h3>
@@ -64,8 +64,8 @@ const Shop = () => {
             placeholder="blur"
             className="h-[60%] w-full rounded-md md:h-[55%]"
           />
-          <div className=" p-[1rem] sm:py-[0.2rem] sm:px-[0.3rem]">
-            <h3 className="font-[500] md:font-[600]  text-[1.5rem] leading-[1.9rem] lg:text-[1.2rem] md:text-[1rem] sm:text-[0.8rem]">
+          <div className=" p-[1rem] ">
+            <h3 className="font-[500] md:font-[600]  text-[1.5rem] leading-[1.9rem] lg:text-[1.2rem] md:text-[1rem]">
               Holly Herndon & Jlin (feat.
               <br className="md:hidden" /> Spawn) – Godmother
             </h3>
@@ -99,7 +99,7 @@ const Shop = () => {
             placeholder="blur"
             className="h-[60%] rounded-md md:h-[55%]"
           />
-          <div className=" p-[1rem] sm:py-[0.2rem] sm:px-[0.3rem]">
+          <div className=" p-[1rem]">
             <h3 className="font-[500] md:font-[600] text-[1.5rem] leading-[1.9rem] lg:text-[1.2rem] md:text-[1rem]  sm:whitespace-normal">
               Holly Herndon & Jlin (feat.
               <br className="md:hidden" /> Spawn) – Godmother

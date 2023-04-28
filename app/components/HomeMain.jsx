@@ -6,7 +6,7 @@ import image2 from "../../public/home2.jpg";
 const HomeMain = () => {
   return (
     <div className="relative flex mt-[4rem] sm:flex-col sm:text-center justify-between">
-      <div className=" flex flex-col gap-y-[1.25rem] ">
+      <div className=" flex flex-col gap-y-[1.25rem] sm:px-[1rem] ">
         <h2 className="text-[3.5rem] lg:text-[3rem] sm:text-[2.8rem]  leading-[4rem] sm:leading-[3rem] font-[500]">
           The one tool you <br className="sm:hidden" /> need to{" "}
           <span className="bg-gradient-to-tr from-ascentColor  to-pink-500 text-transparent  bg-clip-text ">
