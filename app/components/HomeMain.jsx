@@ -7,9 +7,9 @@ const HomeMain = () => {
   return (
     <div className="relative flex mt-[4rem] sm:flex-col sm:text-center justify-between">
       <div className=" flex flex-col gap-y-[1.25rem] ">
-        <h2 className="text-[3.5rem] lg:text-[3rem]  leading-[4rem] font-[500]">
-          The one tool you <br /> need to{" "}
-          <span className="bg-gradient-to-tr from-ascentColor  to-pink-500 text-transparent  bg-clip-text">
+        <h2 className="text-[3.5rem] lg:text-[3rem] sm:text-[2.8rem]  leading-[4rem] sm:leading-[3rem] font-[500]">
+          The one tool you <br className="sm:hidden" /> need to{" "}
+          <span className="bg-gradient-to-tr from-ascentColor  to-pink-500 text-transparent  bg-clip-text ">
             make
           </span>
           <br /> any demo
@@ -26,7 +26,7 @@ const HomeMain = () => {
             }}
             className="p-0.5 rounded-lg"
           >
-            <button className="py-[0.85rem] px-[2rem] md:px-[1rem] rounded-lg font-[500] text-[1.1rem] md:text-[0.8rem] leading-5 bg-bgColor">
+            <button className="py-[0.85rem] px-[2rem] md:px-[1rem] sm:py-[0.5rem] rounded-lg font-[500] text-[1.1rem] md:text-[0.8rem] leading-5 bg-bgColor">
               Try for free
             </button>
           </div>
@@ -35,24 +35,24 @@ const HomeMain = () => {
               background:
                 "linear-gradient(90deg, #23AFB7 1.46%, #169AA4 79.47%)",
             }}
-            className="py-[0.85rem] px-[2rem] md:px-[1rem] rounded-lg font-[500] text-[1.1rem] md:text-[0.9rem]  leading-5 md:leading-3"
+            className="py-[0.85rem] px-[2rem] md:px-[1rem]  rounded-lg font-[500] text-[1.1rem] md:text-[0.8rem]  leading-5 md:leading-3"
           >
             Create Music
           </button>
         </div>
       </div>
-      <div className="flex items-center sm:justify-center sm:mt-[1rem] gap-x-[2rem] lg:gap-x-[1rem]">
+      <div className="flex items-center sm:justify-center sm:mt-[1rem] gap-x-[2rem] lg:gap-x-[1rem] sm:gap-x-[0.5rem]">
         <Image
           src={image1}
           alt="home1"
           placeholder="blur"
-          className="rounded-lg h-[25rem] w-[17.5rem] lg:h-[20rem] lg:w-[14rem] md:h-[18rem] md:w-[12rem]"
+          className="rounded-lg h-[25rem] w-[17.5rem] lg:h-[20rem] lg:w-[14rem] md:h-[18rem] md:w-[12rem] sm:h-[16rem] sm:w-[10rem]"
         />
         <Image
           src={image2}
           alt="home1"
           placeholder="blur"
-          className="rounded-lg h-[20rem] w-[16.25rem] lg:h-[17rem] lg:w-[13rem] md:h-[16rem] md:w-[10rem]"
+          className="rounded-lg h-[20rem] w-[16.25rem] lg:h-[17rem] lg:w-[13rem] md:h-[16rem] md:w-[10rem] sm:h-[14rem] sm:w-[8rem]"
         />
       </div>
       <Image

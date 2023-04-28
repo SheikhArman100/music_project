@@ -7,7 +7,7 @@ const CreateMusic = () => {
   return (
     <div className="mt-[4rem] flex flex-col gap-y-[3.5rem]">
       <div className="text-center flex flex-col gap-y-[1.5rem]">
-        <h1 className="font-[700] text-[2.5rem] leading-[2.9rem]">
+        <h1 className="font-[700] text-[2.5rem] leading-[2.9rem] sm:text-[2rem]">
           Create Music
         </h1>
         <p className="text-[#ffffffb2] font-[400] text-[1.1rem] leading-[1.7rem]">
@@ -24,8 +24,8 @@ const CreateMusic = () => {
           }}
           className="p-0.5  rounded-lg"
         >
-          <div className="relative h-[10.25rem] w-[21.25rem] lg:w-[16rem] md:w-[12rem] sm:[10rem] bg-bgColor grid place-items-center font-[400] text-[1.75rem] leading-[2rem] rounded-lg">
-            <div className="absolute bg-bgColor h-[60%] -top-[30%] left-[35%] md:left-[25%] sm:left-[30%] aspect-square rounded-full grid place-items-center">
+          <div className="relative h-[10.25rem] w-[21.25rem] lg:w-[16rem] md:w-[12rem] sm:w-[10rem] sm:h-[8rem] bg-bgColor grid place-items-center font-[400] text-[1.75rem] sm:text-[1.25rem] leading-[2rem] rounded-lg">
+            <div className="absolute bg-bgColor h-[60%] -top-[30%] left-[35%] md:left-[25%] sm:left-[25%] aspect-square rounded-full grid place-items-center">
               <Image
                 src={CreateMusic1}
                 alt="createmusic1"
@@ -42,8 +42,8 @@ const CreateMusic = () => {
           }}
           className="p-0.5  rounded-lg"
         >
-          <div className="relative h-[10.25rem] w-[21.25rem] lg:w-[16rem] md:w-[12rem] bg-bgColor grid place-items-center font-[400] text-[1.75rem] leading-[2rem] rounded-lg">
-            <div className="absolute bg-bgColor h-[60%] -top-[30%] left-[35%] md:left-[25%] sm:left-[30%] aspect-square rounded-full grid place-items-center">
+          <div className="relative h-[10.25rem] w-[21.25rem] lg:w-[16rem] md:w-[12rem] sm:w-[10rem] sm:h-[8rem] bg-bgColor grid place-items-center font-[400] text-[1.75rem] sm:text-[1.25rem] leading-[2rem] rounded-lg">
+            <div className="absolute bg-bgColor h-[60%] -top-[30%] left-[35%] md:left-[25%]  aspect-square rounded-full grid place-items-center">
               <Image
                 src={CreateMusic2}
                 alt="createmusic2"
@@ -60,8 +60,8 @@ const CreateMusic = () => {
           }}
           className="p-0.5  rounded-lg"
         >
-          <div className="relative h-[10.25rem] w-[21.25rem] lg:w-[16rem] md:w-[12rem] bg-bgColor  grid place-items-center font-[400] text-[1.75rem] leading-[2rem] rounded-lg">
-            <div className="absolute bg-bgColor h-[60%] -top-[30%] left-[35%] md:left-[25%] sm:left-[30%] aspect-square rounded-full grid place-items-center">
+          <div className="relative h-[10.25rem] w-[21.25rem] lg:w-[16rem] md:w-[12rem] sm:w-[10rem] sm:h-[8rem] bg-bgColor  grid place-items-center font-[400] text-[1.75rem] sm:text-[1.25rem] leading-[2rem] rounded-lg">
+            <div className="absolute bg-bgColor h-[60%] -top-[30%] left-[35%] md:left-[25%]  aspect-square rounded-full grid place-items-center">
               <Image
                 src={CreateMusic3}
                 alt="createmusic3"

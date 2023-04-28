@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <Image src={logo} className="h-[3.75rem] aspect-square" alt="logo" />
       </Link>
-      <ul className="flex items-center justify-between gap-x-[2.5rem] md:gap-x-[1rem] text-lg lg:text-[1.1rem] md:text-[0.8rem]  leading-5 font-[400] sm:absolute sm:flex-col sm:top-32 sm:left-8  sm:gap-y-2 sm:opacity-60 cursor-pointer">
+      <ul className="flex items-center justify-between gap-x-[2.5rem] md:gap-x-[1rem] text-lg lg:text-[1.1rem] md:text-[0.8rem]  leading-5 font-[400] sm:absolute sm:flex-col sm:top-32 sm:left-2 sm:items-start  sm:gap-y-2 sm:opacity-60 cursor-pointer">
         <li className="">
           <Link href="" className="flex items-center gap-x-[0.5rem] text-ascentColor">
             Create

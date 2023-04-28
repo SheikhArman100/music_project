@@ -9,10 +9,12 @@ module.exports = {
     screens:{
       // breakpoints
 
-      xs: { "max": "600px" },
-      sm: { "max": "800px" },
-      md: { "max": "1000px" },
+      
+      
       lg: { "max": "1250px" },
+      md: { "max": "1000px" },
+      sm: { "max": "800px" },
+      xs: { "max": "600px" },
       
     },
     extend: {

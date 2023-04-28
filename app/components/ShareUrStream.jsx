@@ -8,7 +8,7 @@ const ShareUrStream = () => {
       <div className="relative">
         <Image
           src={shareurstream}
-          className="h-[25rem] w-[35rem] rounded-2xl lg:w-[30rem] sm:w-[20rem] sm:h-[20rem]"
+          className="h-[25rem] w-[35rem] rounded-2xl lg:w-[30rem] sm:w-[20rem] sm:h-[18rem]"
           alt="shareurstream"
           placeholder="blur"
         />
