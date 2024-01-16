@@ -6,7 +6,7 @@ import image2 from "../../public/home2.jpg";
 const HomeMain = () => {
   return (
     <div className="relative flex mt-[4rem] sm:flex-col sm:text-center justify-between">
-      <div className=" flex flex-col gap-y-[1.25rem] sm:px-[1rem] ">
+      <div className=" flex flex-col gap-y-[1.25rem] sm:px-[0.5rem] ">
         <h2 className="text-[3.5rem] lg:text-[3rem] sm:text-[2.8rem]  leading-[4rem] sm:leading-[3rem] font-[500]">
           The one tool you <br className="sm:hidden" /> need to{" "}
           <span className="bg-gradient-to-tr from-ascentColor  to-pink-500 text-transparent  bg-clip-text ">
@@ -41,7 +41,7 @@ const HomeMain = () => {
           </button>
         </div>
       </div>
-      <div className="flex items-center sm:justify-center sm:mt-[1rem] gap-x-[2rem] lg:gap-x-[1rem] sm:gap-x-[0.5rem]">
+      <div className="flex items-center sm:justify-center sm:mt-[1rem] gap-x-[2rem] lg:gap-x-[0.8rem] sm:gap-x-[0.5rem]">
         <Image
           src={image1}
           alt="home1"
